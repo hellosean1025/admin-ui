@@ -1,0 +1,14 @@
+@import './variables.scss';
+
+body {
+  color: $deep-black-color;
+}
+
+p{
+  color: $shallow-black-color;
+}
+
+
+h1,h2,h3,h4,h5{
+  color: $deep-black-color;
+}

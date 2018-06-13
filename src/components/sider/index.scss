@@ -1,0 +1,54 @@
+@import "src/style/variables.scss";
+
+.box-sider{
+  width:256px;
+  line-height: 35px;
+  margin-left: 0px;
+  .menu-box{
+    margin-bottom: 300px;
+  }
+
+  .menu{
+    border-top-width: 0;
+    padding-bottom: 16px;
+    font-size:15px;
+  }
+
+  .menu-item{
+    position: relative;
+    padding: 0;
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    line-height: 40px;
+    color: #9a9a9a;
+    border-left: 4px solid #f8f9fb;
+    margin-bottom: 10px;
+
+    a{
+      display: block;
+      padding: 0 34px 0;
+      color: $deep-black-color;
+      text-decoration: none;
+      font-weight: normal;
+      .item-icon{
+        width:24px;
+        margin-right:30px;
+      }
+    }
+
+    a:hover{
+      background-color: #eff1f3
+    }
+  }
+
+  .menu-item.selected {
+    border-left: 4px solid $primary-color;
+    color: $primary-color;
+    a{
+      color: $primary-color;
+    }
+  }
+}

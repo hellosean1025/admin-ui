@@ -1,0 +1,46 @@
+@import "src/style/variables.scss";
+
+
+.box-header {
+  padding: 0 40px;
+  margin-bottom: 30px;
+  font-size:16px;
+  a{
+    color:#eee;
+  }
+  .logo {
+    width: 200px;
+    height: 31px;
+    color: #eee;
+    
+    margin: 16px 28px 16px 0;
+    line-height: 31px;
+    font-size: 28px;
+    float: left;
+  }
+
+  .navs {
+    line-height: 64px;
+  }
+
+  .ant-menu{
+    font-size:16px;
+  }
+
+  .ant-menu.ant-menu-dark .ant-menu-item-selected,
+  .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+    background-color: #333;
+  }
+
+  .ctrls {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    color: $shallow-white-color;
+  }
+}
+
+.ant-layout-header {
+  line-height: 64px;
+  height: 64px;
+}

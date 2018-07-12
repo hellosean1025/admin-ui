@@ -4,7 +4,7 @@ export default {
     menu: 'index', //页面左侧当前选择菜单,
     login: {
       uid: 0,
-      isLogin: false,
+      isLogin: true,
       username: 'guest'
     }
 

@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Sider from "website/components/sider";
 import index from "./index/index.js";
-import runtime from "./runtime";
+import DragStudy from "./dragStudy";
 import { Route, Switch, Redirect } from "react-router-dom";
 import Model from "website/model";
 import { connect } from "react-redux";
@@ -15,10 +15,10 @@ const menus = [
     component: index
   },
   {
-    title: "实时统计",
-    key: "runtime",
+    title: "拖动学习",
+    key: "dragStudy",
     icon: "heart",
-    component: runtime
+    component: DragStudy
   },
   {
     title: "访问分析",

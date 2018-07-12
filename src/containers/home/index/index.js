@@ -1,7 +1,7 @@
 import React from "react";
 import ContentBox from "website/components/contentBox";
 
-export default () => {
+export default function Home(){
   return (
     <ContentBox title="数据统计">
       <ContentBox.Item>
@@ -10,4 +10,4 @@ export default () => {
       </ContentBox.Item>
     </ContentBox>
   );
-};
+}

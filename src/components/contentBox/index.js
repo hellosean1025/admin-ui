@@ -26,7 +26,7 @@ Content.propTypes = {
   children: PropTypes.any
 }
 
-Content.Item = (props) =>{
+Content.Item = function ContentItem(props)  {
   return <div className="main-body-item">
     {props.children}
   </div>
